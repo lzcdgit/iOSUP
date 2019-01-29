@@ -1,0 +1,16 @@
+PODS:
+  - SDAutoLayout (2.2.1)
+
+DEPENDENCIES:
+  - SDAutoLayout (~> 2.2.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDAutoLayout
+
+SPEC CHECKSUMS:
+  SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
+
+PODFILE CHECKSUM: 66be4c4818094305f8d8d9890684d54bf67c7223
+
+COCOAPODS: 1.5.2
