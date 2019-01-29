@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "UIViewController+addProperty.h"
 
+#import "DemoVC0.h"
+
 /*
  https://www.jianshu.com/p/361c9136cf3a
  */
@@ -25,22 +27,13 @@
     CGFloat total_down = floor(result * 10) / 10;
     NSLog(@"结果 %f ,2位 %.1f,total_down = %lf,最终 = %.1lf",result,result ,total_down,total_down);
     
-    UIView * view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
-    view.backgroundColor = [UIColor redColor];
-    [self.view addSubview:view];
-    
-    [UIView animateWithDuration:1 animations:^{
-        view.frame = CGRectMake(0, 300, 50, 50);
-        
-    } completion:^(BOOL finished) {
-//        [UIView animateWithDuration:1 animations:^{
-//            view.frame = CGRectMake(200, 300, 50, 50);
-//        } completion:^(BOOL finished) {
-//            view.frame = CGRectMake(200, 400, 50, 50);
-//        }];
-    }];
     // Do any additional setup after loading the view, typically from a nib.
     [self runtimeProperty];
+    
+   UIButton *btn =  [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    btn.backgroundColor = [UIColor redColor];
+    [btn addTarget:self action:@selector(test) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
 }
 - (void)runtimeProperty
 {
@@ -48,4 +41,9 @@
     NSLog(@"%@,",self.addTag);
 }
 
+- (void)test
+{
+    DemoVC0 * vc = [[DemoVC0 alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 @end
