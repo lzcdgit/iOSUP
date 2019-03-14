@@ -19,6 +19,8 @@
 		2093BAFD21C8A2C9006F0D9D /* UIViewController+addProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 2093BAFC21C8A2C9006F0D9D /* UIViewController+addProperty.m */; };
 		20CBCF6022004D3800BF2197 /* SDSuperVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CBCF5F22004D3800BF2197 /* SDSuperVC.m */; };
 		20CBCF6422004E1C00BF2197 /* DemoVC0.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CBCF6322004E1C00BF2197 /* DemoVC0.m */; };
+		20CBCF6722016DDB00BF2197 /* DemoVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CBCF6622016DDB00BF2197 /* DemoVC2.m */; };
+		20E6F412223A4B8C008CF214 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E6F411223A4B8C008CF214 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,10 @@
 		20CBCF5F22004D3800BF2197 /* SDSuperVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDSuperVC.m; sourceTree = "<group>"; };
 		20CBCF6222004E1C00BF2197 /* DemoVC0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoVC0.h; sourceTree = "<group>"; };
 		20CBCF6322004E1C00BF2197 /* DemoVC0.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoVC0.m; sourceTree = "<group>"; };
+		20CBCF6522016DDB00BF2197 /* DemoVC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoVC2.h; sourceTree = "<group>"; };
+		20CBCF6622016DDB00BF2197 /* DemoVC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoVC2.m; sourceTree = "<group>"; };
+		20E6F410223A4B8C008CF214 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		20E6F411223A4B8C008CF214 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		6AA810A0A037027AFF5A7CFB /* Pods-StudyiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudyiOS/Pods-StudyiOS.release.xcconfig"; sourceTree = "<group>"; };
 		B14031841EBA4F4EF811F30C /* Pods-StudyiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudyiOS/Pods-StudyiOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +123,7 @@
 		20730CBD21B8F0DE0087DE32 /* StudyiOS */ = {
 			isa = PBXGroup;
 			children = (
+				20E6F40F223A4B42008CF214 /* realmDemo */,
 				20CBCF6122004DDE00BF2197 /* ADAutoLayoutDemo */,
 				2093BAFA21C8A27D006F0D9D /* runtime */,
 				20730CBE21B8F0DE0087DE32 /* AppDelegate.h */,
@@ -166,8 +173,19 @@
 				20CBCF5F22004D3800BF2197 /* SDSuperVC.m */,
 				20CBCF6222004E1C00BF2197 /* DemoVC0.h */,
 				20CBCF6322004E1C00BF2197 /* DemoVC0.m */,
+				20CBCF6522016DDB00BF2197 /* DemoVC2.h */,
+				20CBCF6622016DDB00BF2197 /* DemoVC2.m */,
 			);
 			path = ADAutoLayoutDemo;
+			sourceTree = "<group>";
+		};
+		20E6F40F223A4B42008CF214 /* realmDemo */ = {
+			isa = PBXGroup;
+			children = (
+				20E6F410223A4B8C008CF214 /* User.h */,
+				20E6F411223A4B8C008CF214 /* User.m */,
+			);
+			path = realmDemo;
 			sourceTree = "<group>";
 		};
 		6A8CF70C01CCFB23DBDE536E /* Pods */ = {
@@ -339,9 +357,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E6F412223A4B8C008CF214 /* User.m in Sources */,
 				20730CC321B8F0DE0087DE32 /* ViewController.m in Sources */,
 				20730CCE21B8F0E00087DE32 /* main.m in Sources */,
 				20CBCF6422004E1C00BF2197 /* DemoVC0.m in Sources */,
+				20CBCF6722016DDB00BF2197 /* DemoVC2.m in Sources */,
 				20CBCF6022004D3800BF2197 /* SDSuperVC.m in Sources */,
 				20730CC021B8F0DE0087DE32 /* AppDelegate.m in Sources */,
 				2093BAFD21C8A2C9006F0D9D /* UIViewController+addProperty.m in Sources */,

@@ -1,16 +1,22 @@
 PODS:
+  - Realm (3.13.1):
+    - Realm/Headers (= 3.13.1)
+  - Realm/Headers (3.13.1)
   - SDAutoLayout (2.2.1)
 
 DEPENDENCIES:
+  - Realm (~> 3.13.1)
   - SDAutoLayout (~> 2.2.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Realm
     - SDAutoLayout
 
 SPEC CHECKSUMS:
+  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
   SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
 
-PODFILE CHECKSUM: 66be4c4818094305f8d8d9890684d54bf67c7223
+PODFILE CHECKSUM: 99f21c3d36c9a6569557ebef4453f06c4e469b32
 
 COCOAPODS: 1.5.2

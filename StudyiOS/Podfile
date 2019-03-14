@@ -1,3 +1,4 @@
 target 'StudyiOS' do
 pod 'SDAutoLayout', '~> 2.2.1'
+pod 'Realm', '~> 3.13.1'
 end

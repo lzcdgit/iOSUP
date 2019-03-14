@@ -19,7 +19,7 @@
     
     _ratio = 0.4;
     
-      _timer = [NSTimer scheduledTimerWithTimeInterval:0.8 target:self selector:@selector(animation) userInfo:nil repeats:YES];
+    _timer = [NSTimer scheduledTimerWithTimeInterval:0.8 target:self selector:@selector(animation) userInfo:nil repeats:YES];
     
     self.view0.sd_layout
     .leftSpaceToView(self.view, 10)

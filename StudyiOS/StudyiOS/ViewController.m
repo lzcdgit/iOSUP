@@ -10,9 +10,10 @@
 #import "UIViewController+addProperty.h"
 
 #import "DemoVC0.h"
+#import "DemoVC2.h"
 
 /*
- https://www.jianshu.com/p/361c9136cf3a
+ https://www.jianshu.com/p/361c9136cf3a //Runtime
  */
 @interface ViewController ()
 
@@ -43,7 +44,7 @@
 
 - (void)test
 {
-    DemoVC0 * vc = [[DemoVC0 alloc] init];
+    DemoVC2 * vc = [[DemoVC2 alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 @end
